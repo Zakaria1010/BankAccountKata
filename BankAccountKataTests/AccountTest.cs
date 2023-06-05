@@ -70,7 +70,7 @@ namespace BankAccountKataTests
                 );
         }
     }
-
+    // intercept Console output 
     internal class ConsoleRecorder: IDisposable
     {
         private readonly TextWriter oldOutputStream;
